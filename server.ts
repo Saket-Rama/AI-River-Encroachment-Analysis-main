@@ -53,7 +53,7 @@ Provide strict, professional scientific output. Highlight risks, crest timing, a
 • Critical stage breach observed at Santiam North Fork (18.9 ft vs 19.5 ft crest).
 • Multi-spectral satellite masks estimate 4,210 hectares of anomalous inundation.
 • ESP32 field telemetry nodes indicate steady rapid saturation across floodplains.
-• Action: Initiate Level 2 watch advisory for downtown industrial corridor.`
+• Action: Initiate Level 2 watch advisory for downtown in`dustrial corridor.`
     });
   }
 });

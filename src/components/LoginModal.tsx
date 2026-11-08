@@ -38,9 +38,9 @@ export const LoginModal: React.FC<LoginModalProps> = ({
   };
 
   return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-[#0b1c30]/70 backdrop-blur-xs">
-      <div className="bg-white rounded-xl border border-[#e2e8f0] max-w-md w-full shadow-2xl overflow-hidden animate-in fade-in zoom-in-95 duration-150">
-        <div className="bg-[#134e4a] text-white p-6 relative">
+    <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-[#0b1c30]/70 backdrop-blur-xs overflow-y-auto">
+      <div className="bg-white rounded-xl border border-[#e2e8f0] max-w-md w-full shadow-2xl overflow-hidden flex flex-col max-h-[90vh] my-auto animate-in fade-in zoom-in-95 duration-150">
+        <div className="bg-[#134e4a] text-white p-5 sm:p-6 relative shrink-0">
           <button
             onClick={onClose}
             className="absolute top-4 right-4 text-white/70 hover:text-white p-1 rounded-full transition-colors"
@@ -58,7 +58,7 @@ export const LoginModal: React.FC<LoginModalProps> = ({
           </p>
         </div>
 
-        <form onSubmit={handleSubmit} className="p-6 space-y-4">
+        <form onSubmit={handleSubmit} className="p-5 sm:p-6 space-y-4 overflow-y-auto flex-1">
           <div className="p-3 bg-[#f8fafc] border border-[#e2e8f0] rounded text-xs text-[#475569] flex items-center gap-2">
             <ShieldCheck className="w-4 h-4 text-[#0d9488] shrink-0" />
             <span>Select an authorized role to simulate mission-control privileges:</span>
