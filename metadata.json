@@ -1,0 +1,6 @@
+{
+  "name": "RIVERGUARD AI - Hydrologic Intelligence System",
+  "description": "Mission-critical municipal flood risk assessment, live telemetry sensor monitoring, satellite hydrological image analysis, and river basin intelligence.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
